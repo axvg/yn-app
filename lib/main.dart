@@ -14,12 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Yes No App',
       theme: AppTheme(selectedColor: 2).theme(),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: ChatScreen(),
-      ),
+      home: const ChatScreen(),
     );
   }
 }
